@@ -1,0 +1,26 @@
+{
+  "name": "@atom-platform/ngx-plyr",
+  "keywords": [
+    "ngx-plyr",
+    "ng-plyr",
+    "plyr",
+    "angular",
+    "player",
+    "video",
+    "audio"
+  ],
+  "author": "atom-platform",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom-platform/ngx-plyr"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=8.0.0",
+    "@angular/core": ">=8.0.0",
+    "plyr": "^3.5.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
