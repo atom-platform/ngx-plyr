@@ -6,7 +6,7 @@ import { DefaultPlyrDriver } from '../plyr-driver/default-plyr-driver';
 import { PlyrDriver } from '../plyr-driver/plyr-driver';
 
 @Component({
-  selector: 'plyr, [plyr]', // tslint:disable-line
+  selector: 'plyr, [plyr]', // eslint-disable-line
   templateUrl: './plyr.component.html',
   styleUrls: ['./plyr.component.css'],
   exportAs: 'plyr'

@@ -7,7 +7,7 @@ import { DashjsPlyrDriver } from '../dashjs-plyr-driver/dashjs-plyr-driver';
   templateUrl: './dashjs.component.html',
   styleUrls: ['./dashjs.component.scss']
 })
-export class DashjsComponent implements OnInit {
+export class DashjsComponent {
 
   options: Plyr.Options = {
     captions: { active: true, update: true, language: 'en' },
@@ -25,9 +25,6 @@ export class DashjsComponent implements OnInit {
   dashjsDriver2 = new DashjsPlyrDriver(false);
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
   played() {
     this.dashjsDriver2.load('https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd');

@@ -7,7 +7,7 @@ import { HlsjsPlyrDriver } from '../hlsjs-plyr-driver/hlsjs-plyr-driver';
   templateUrl: './hlsjs.component.html',
   styleUrls: ['./hlsjs.component.scss'],
 })
-export class HlsjsComponent implements OnInit {
+export class HlsjsComponent {
 
   plyr1: Plyr;
   plyr2: Plyr;
@@ -28,9 +28,6 @@ export class HlsjsComponent implements OnInit {
   hlsjsDriver2 = new HlsjsPlyrDriver(false);
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
   languageChanged(driver: HlsjsPlyrDriver, plyr: Plyr) {
     setTimeout(() => driver.hls.subtitleTrack = plyr.currentTrack, 50);

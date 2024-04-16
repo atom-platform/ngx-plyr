@@ -1,8 +1,9 @@
 # Atom-Platform ngx-plyr for Angular
+## Forked from smnbbrv/ngx-plyr, but this version supports angular +14
 
 ## @atom-platform/ngx-plyr
 
-Angular 6+ bindings for [plyr video and audio player](https://github.com/sampotts/plyr). Supports everything that original library supports.
+Angular 14+ bindings for [plyr video and audio player](https://github.com/sampotts/plyr). Supports everything that original library supports.
 
 ![Workflow status](https://img.shields.io/github/workflow/status/atom-platform/ngx-plyr/Push)
 [![Coverage Status](https://img.shields.io/coveralls/github/atom-platform/ngx-plyr/master.svg)](https://coveralls.io/github/atom-platform/ngx-plyr?branch=master)
@@ -35,7 +36,7 @@ Add `"node_modules/plyr/dist/plyr.css"` to the `styles` section of your `angular
 Import `PlyrModule` into the current module's imports:
 
 ```ts
-import { PlyrModule } from 'ngx-plyr';
+import { PlyrModule } from '@atom-platform/ngx-plyr';
 
 imports: [
   // ...

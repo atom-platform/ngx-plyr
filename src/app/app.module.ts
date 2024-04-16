@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
@@ -21,14 +20,11 @@ import { HlsjsComponent } from './hlsjs/hlsjs.component';
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
-
-    FlexLayoutModule,
     MatButtonModule,
     MatCardModule,
     MatDividerModule,
     MatIconModule,
     MatToolbarModule,
-
     PlyrModule,
   ],
   providers: [],
