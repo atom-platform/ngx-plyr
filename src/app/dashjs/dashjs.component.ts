@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import * as Plyr from 'plyr';
 import { DashjsPlyrDriver } from '../dashjs-plyr-driver/dashjs-plyr-driver';
 

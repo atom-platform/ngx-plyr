@@ -10,3 +10,12 @@
   flex-direction: row;
   gap: 32px;
 }
+
+.mdc-card__actions {
+  gap: 8px;
+}
+
+.mat-mdc-card-title, .mat-mdc-card-subtitle {
+  padding: 16px;
+  padding-bottom: 0;
+}

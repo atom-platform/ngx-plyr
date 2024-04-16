@@ -1,4 +1,4 @@
-import * as Hls from 'hls.js';
+import Hls from 'hls.js';
 import { PlyrDriver, PlyrDriverCreateParams, PlyrDriverDestroyParams, PlyrDriverUpdateSourceParams } from 'ngx-plyr';
 import * as Plyr from 'plyr';
 

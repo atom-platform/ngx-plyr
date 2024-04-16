@@ -124,7 +124,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ngx-plyr/tsconfig.lib.json",
             "project": "projects/ngx-plyr/ng-package.json"
@@ -159,5 +159,13 @@
     "schematicCollections": [
       "@angular-eslint/schematics"
     ]
+  },
+  "schematics": {
+    "@angular-eslint/schematics:application": {
+      "setParserOptionsProject": true
+    },
+    "@angular-eslint/schematics:library": {
+      "setParserOptionsProject": true
+    }
   }
 }

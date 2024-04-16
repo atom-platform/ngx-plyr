@@ -12,9 +12,7 @@ export class DashjsPlyrDriver implements PlyrDriver {
 
   private loaded = false;
 
-  constructor(private autoload: boolean) {
-    this.dash.getDebug().setLogToBrowserConsole(false);
-  }
+  constructor(private autoload: boolean) { }
 
   create(params: PlyrDriverCreateParams) {
     this.videoElement = params.videoElement;

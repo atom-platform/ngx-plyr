@@ -1,13 +1,12 @@
 # Atom-Platform ngx-plyr for Angular
-## Forked from smnbbrv/ngx-plyr, but this version supports angular +14
+## Forked from smnbbrv/ngx-plyr, but this version supports angular 15+
 
 ## @atom-platform/ngx-plyr
 
-Angular 14+ bindings for [plyr video and audio player](https://github.com/sampotts/plyr). Supports everything that original library supports.
+Angular 15+ bindings for [plyr video and audio player](https://github.com/sampotts/plyr). Supports everything that original library supports.
 
 ![Workflow status](https://img.shields.io/github/workflow/status/atom-platform/ngx-plyr/Push)
-[![Coverage Status](https://img.shields.io/coveralls/github/atom-platform/ngx-plyr/master.svg)](https://coveralls.io/github/atom-platform/ngx-plyr?branch=master)
-![@ngx-grpc/protoc-gen-ng npm version](https://img.shields.io/npm/v/ngx-plyr)
+[![Push](https://github.com/atom-platform/ngx-plyr/actions/workflows/publish.yml/badge.svg?branch=main&event=push)](https://github.com/atom-platform/ngx-plyr/actions/workflows/publish.yml)
 
 ## Installation
 
