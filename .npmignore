@@ -17,6 +17,8 @@ coverage
 *.launch
 .settings/
 *.sublime-workspace
+/.nx
+/.nx/*
 
 # IDE - VSCode
 .vscode/*

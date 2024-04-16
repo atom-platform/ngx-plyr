@@ -1,9 +1,9 @@
 # Atom-Platform ngx-plyr for Angular
-## Forked from smnbbrv/ngx-plyr, but this version supports angular 16+
+## Forked from smnbbrv/ngx-plyr, but this version supports angular 17+
 
 ## @atom-platform/ngx-plyr
 
-Angular 16+ bindings for [plyr video and audio player](https://github.com/sampotts/plyr). Supports everything that original library supports.
+Angular 17+ bindings for [plyr video and audio player](https://github.com/sampotts/plyr). Supports everything that original library supports.
 
 ![Workflow status](https://img.shields.io/github/workflow/status/atom-platform/ngx-plyr/Push)
 [![Push](https://github.com/atom-platform/ngx-plyr/actions/workflows/publish.yml/badge.svg?branch=main&event=push)](https://github.com/atom-platform/ngx-plyr/actions/workflows/publish.yml)
