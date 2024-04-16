@@ -1,5 +1,6 @@
 {
   "name": "@atom-platform/ngx-plyr",
+  "version": "14.3.0",
   "keywords": [
     "ngx-plyr",
     "ng-plyr",
