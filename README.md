@@ -5,7 +5,6 @@
 
 Angular 17+ bindings for [plyr video and audio player](https://github.com/sampotts/plyr). Supports everything that original library supports.
 
-![Workflow status](https://img.shields.io/github/workflow/status/atom-platform/ngx-plyr/Push)
 [![Push](https://github.com/atom-platform/ngx-plyr/actions/workflows/publish.yml/badge.svg?branch=main&event=push)](https://github.com/atom-platform/ngx-plyr/actions/workflows/publish.yml)
 
 ## Installation
